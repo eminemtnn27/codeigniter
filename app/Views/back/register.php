@@ -38,7 +38,6 @@ div.page-content--bge5 {
 }
 </style>
 </head>
-
 <body class="animsition">
     <div class="page-wrapper">
         <div class="page-content--bge5">
@@ -47,15 +46,16 @@ div.page-content--bge5 {
                     <div class="login-content">
                         <div class="login-logo">
                             <a href="<?php echo base_url('public/back/'); ?>" style="color:darkorange;font-size:27px;"> Üye Kayıt Formu
-                                
                             </a>
                         </div>
                          <?php
-        if (!empty($form_errors)) { ?>
-            <div class="alert alert-danger" role="alert">
-                <?php echo $form_errors?>
-            </div>
-        <?php } ?>
+                            if (!empty(session()->getFlashData('fail'))) : ?>
+                                <div class="alert alert-danger" role="alert"><?= session()->getFlashData('fail'); ?></div>
+                            <?php endif ?>
+                         <?php
+                            if (!empty(session()->getFlashData('success'))) : ?>
+                                <div class="alert alert-success" role="alert"><?= session()->getFlashData('success'); ?></div>
+                            <?php endif ?> 
                         <div class="login-form">
                             <form action="<?=base_url('back/admin/registerSave'); ?>" method="post">
                             <?=csrf_field();?>
