@@ -120,6 +120,6 @@ class Admin extends BaseController
 	}
 	public function logout()
 	{
-		 
+		// $this->session->session_destroy();
 	}
 }
