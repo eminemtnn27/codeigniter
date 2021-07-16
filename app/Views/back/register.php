@@ -51,18 +51,27 @@ div.page-content--bge5 {
                             </a>
                         </div>
                         <div class="login-form">
-                            <form action="" method="post">
+                            <form action="<?=base_url('back/admin/registerSave'); ?>" method="post">
+                            <?=csrf_field();?>
                                 <div class="form-group">
                                     <label>Kullanıcı Adı: </label>
-                                    <input class="au-input au-input--full" type="text" name="username" placeholder="Kullanıcı Adı">
+                                    <input class="au-input au-input--full" type="text" name="name" placeholder="Kullanıcı Adı">
+                                    <span class="text-danger"><?= isset($validation) ? display_error($validation,'name'): '' ?></span>
                                 </div>
                                 <div class="form-group">
                                     <label>Email Adresi: </label>
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
+                                 <span class="text-danger"><?= isset($validation) ? display_error($validation,'email'): '' ?></span>
                                 </div>
                                 <div class="form-group">
                                     <label>Şifre: </label>
                                     <input class="au-input au-input--full" type="password" name="password" placeholder="Şifre">
+                                     <span class="text-danger"><?= isset($validation) ? display_error($validation,'password'): '' ?></span> 
+                                </div>
+                                <div class="form-group"> 
+                                    <label>Şifre Tekrar: </label>
+                                    <input class="au-input au-input--full" type="password" name="confirmpassword" placeholder="******">
+                                     <span class="text-danger"><?= isset($validation) ? display_error($validation,'confirmpassword'): '' ?></span>
                                 </div>
                                 <div class="login-checkbox">
                                     <label>
@@ -77,7 +86,7 @@ div.page-content--bge5 {
                             <div class="register-link">
                                 <p>
                                     Zaten Bir Hesabım Var
-                                    <a href="<?php echo base_url('public/back/'); ?>" style="color:darkblue;">Giriş Yap</a>
+                                    <a href="<?php echo base_url('admin/login'); ?>" style="color:darkblue;">Giriş Yap</a>
                                 </p>
                             </div>
                         </div>

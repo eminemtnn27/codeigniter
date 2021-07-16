@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
@@ -8,7 +7,6 @@
     <meta name="description" content="au theme template">
     <meta name="author" content="Hau Nguyen">
     <meta name="keywords" content="au theme template">
-
     <!-- Title Page-->
     <title>Login</title>
     <!-- Fontfaces CSS-->
@@ -31,13 +29,12 @@
 
     <!-- Main CSS-->
     <link href="<?php echo base_url('public/back/css/theme.css'); ?>" rel="stylesheet" media="all">
-<style>
-div.page-content--bge5 {
-  background-image: url('../public/back/images/image.jpg');
-}
-</style>
+    <style>
+    div.page-content--bge5 {
+    background-image: url('../public/back/images/image.jpg');
+    }
+    </style>
 </head>
-
 <body class="animsition">
     <div class="page-wrapper">
         <div class="page-content--bge5">
@@ -51,6 +48,7 @@ div.page-content--bge5 {
                         </div>
                         <div class="login-form">
                             <form action="" method="post">
+                                <?=csrf_field();?>
                                 <div class="form-group">
                                     <label>Email Adresi:</label>
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
@@ -68,12 +66,11 @@ div.page-content--bge5 {
                                     </label>
                                 </div>
                                 <button class="au-btn au-btn--block  m-b-20" style="background-color:gray;" type="submit">Giriş Yap</button>
-                                
                             </form>
                             <div class="register-link">
                                 <p>
                                     Bir Hesabın Yok Mu?
-                                    <a style="color:darkorange;" href="<?php echo base_url('public/back/'); ?>">Kaydol</a>
+                                    <a style="color:darkorange;" href="<?php echo base_url('admin/register'); ?>">Kaydol</a>
                                 </p>
                             </div>
                         </div>
@@ -81,9 +78,7 @@ div.page-content--bge5 {
                 </div>
             </div>
         </div>
-
     </div>
-
     <!-- Jquery JS-->
     <script src="<?php echo base_url('public/back/vendor/jquery-3.2.1.min.js'); ?>"></script>
     <!-- Bootstrap JS-->

@@ -38,6 +38,7 @@ $routes->group('admin',['namespace'=>'App\Controllers\Back' ], function($routes)
 	$routes->get('homepage', 'Admin::index');
 	$routes->get('login', 'Admin::login');
 	$routes->get('register', 'Admin::register');
+//	$routes->get('registerSave', 'Admin::registerSave' );
 });
 
 /*
