@@ -50,6 +50,12 @@ div.page-content--bge5 {
                                 
                             </a>
                         </div>
+                         <?php
+        if (!empty($form_errors)) { ?>
+            <div class="alert alert-danger" role="alert">
+                <?php echo $form_errors?>
+            </div>
+        <?php } ?>
                         <div class="login-form">
                             <form action="<?=base_url('back/admin/registerSave'); ?>" method="post">
                             <?=csrf_field();?>
