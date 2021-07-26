@@ -2286,7 +2286,7 @@ Click the help icon above to learn more.
                 <div class="container">
                     <div class="row">
                         <div class="site-logo col-md-3 col-sm-12" itemscope itemtype="http://schema.org/Organization">
-                            <img width="225" height="73" src="<?php echo base_url('back/images/logoo.png'); ?>"
+                            <img width="225" height="73" src="<?php echo base_url('public/back/images/logoo.png'); ?>"
                                 class="attachment-full size-full" alt=""
                                 sizes="(max-width: 768px) 92vw, (max-width: 992px) 970px, (max-width: 1200px) 1170px, 1200px" />
                         </div>
@@ -2294,7 +2294,7 @@ Click the help icon above to learn more.
                             <div id="pt_search_widget-4" class="widget widget_pt_search_widget">
                                 <form class="pt-searchform" method="get" action="">
                                     <input id="s" name="s" type="text" class="searchtext" value=""
-                                        placeholder="Text here..." tabindex="1"> 
+                                        placeholder="Ara..." tabindex="1"> 
                                     <div class="select-wrapper"><select class="search-select" name="product_cat">
                                             <option value="">Tüm Kategoriler</option>
                                             <option value="birthday-gifts">Doğum Günü Hediyeleri</option>

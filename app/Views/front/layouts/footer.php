@@ -1,16 +1,9 @@
-	 <div class="footer-shortcode" style="background-image:url( );
-												background-repeat:repeat;
-												background-position:top left;
-												background-attachment:fixed;
-												background-color:">
+	 <div class="footer-shortcode" style="background-repeat:repeat;	background-position:top left;	background-attachment:fixed;	background-color:">
 	     <div class="container">
-	         
 	     </div>
 	 </div>
-	 <footer class="site-footer" style="background-color: #000000;" itemscope="itemscope"
-	     itemtype="http://schema.org/WPFooter">
+	 <footer class="site-footer" style="background-color: #000000;" itemscope="itemscope"    itemtype="http://schema.org/WPFooter">
 	     <!-- Site's Footer -->
-
 	     <div class="top-footer-widget">
 	         <!-- Extra widget area -->
 	         <div class="container">
@@ -20,16 +13,13 @@
 	             </div>
 	         </div>
 	     </div><!-- end of Extra widget area -->
-
 	     <div class="footer-widgets">
 	         <!-- Footer's widgets -->
 	         <div class="container">
 	             <div class="row">
-
 	                 <div class="col-xs-12 col-sm-6 col-md-3">
 	                     <div id="pt_contacts_widget-2" class="widget widget_pt_contacts_widget">
-	                         <h3 class="widget-title itemprop=" name">Biz Kimiz?</h3>
-
+	                         <h3 class="widget-title itemprop=" name>Biz Kimiz?</h3>
 	                         <ul class="pt-widget-contacts" itemprop="sourceOrganization" itemscope="itemscope"
 	                             itemtype="http://schema.org/LocalBusiness">
 	                             <li class="option-title a-logo"><span class="logo"><img alt=""
@@ -68,7 +58,7 @@
 	                 </div> 
 	                 <div class="col-xs-12 col-sm-6 col-md-3">
 	                     <div id="email-subscribers-form-2" class="widget widget_email-subscribers-form">
-	                         <h3 class="widget-title itemprop=" name">Bize Katıl</h3>
+	                         <h3 class="widget-title itemprop=" name>Bize Katıl</h3>
 	                         <div class="emaillist">
 	                             <form action="#" method="post" class="es_subscription_form es_shortcode_form"
 	                                 id="es_subscription_form_1626454243" data-source="ig-es">
@@ -100,11 +90,11 @@
 	         </div>
 	     </div><!-- end of Footer's widgets -->
 
-	     <div class="footer-bottom">
+	     <div class="footer-bottom" style="background-color: #000000;">
 	         <!-- Copyrights -->
 	         <div class="container">
 	             <div class="row">
-	                 <div class="site-info col-xs-12 col-sm-12 col-md-12">
+	                 <div class="site-info col-xs-12 col-sm-12 col-md-12" >
 	                     &copy;&nbsp;<span itemprop="copyrightYear">2021</span>&nbsp;<span itemprop="copyrightHolder">
 	                         El <a href=" " itemprop="url">Emekleri</a></span> </div>
 	             </div>

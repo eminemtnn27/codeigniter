@@ -57,7 +57,6 @@
                                     </div>
                                     <div class="woocommerce columns-3 ">
                                         <ul class="products columns-3" data-expand="-100">
-
                                             <li class=" col-xs-6 col-md-4 col-sm-6 lazyload product type-product post-2289 status-publish first instock product_cat-furniture product_cat-variables product_tag-natural product_tag-outdoor has-post-thumbnail shipping-taxable purchasable product-type-variable"
                                                 data-expand="-100">
                                                 <div class="inner-product-content fade-hover">
@@ -100,16 +99,8 @@
                                                                 title="Select options" class="fa fa-search"></i>Select
                                                             options</a>
                                                     </div>
-                                                    <div class="additional-buttons">
-                                                        <div class="sold-by-container left-slide"><a
-                                                                href="http://handy.themes.zone/vendors/new-vendors-shop/"
-                                                                title="Sold by New vendor&#039;s Shop"><img
-                                                                    src="http://handy.themes.zone/wp-content/uploads/2016/06/logo-6-30x30.png"
-                                                                    alt="New vendor&#039;s Shop logo"
-                                                                    class="store-icon" /></a></div><a
-                                                            href="http://handy.themes.zone?action=yith-woocompare-add-product&id=2289"
-                                                            class="compare" data-product_id="2289"
-                                                            rel="nofollow">Compare</a>
+                                                    <div class="additional-buttons"> 
+                                                                    <a href="" class="compare" data-product_id="2289" rel="nofollow">Compare</a>
                                                         <div class="yith-wcwl-add-to-wishlist add-to-wishlist-2289">
                                                             <div class="yith-wcwl-add-button show"
                                                                 style="display:block">
@@ -117,24 +108,22 @@
                                                                     data-product-id="2289" data-product-type="variable"
                                                                     class="add_to_wishlist">
                                                                     Add to Wishlist</a>
-                                                                <img src="http://handy.themes.zone/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif"
+                                                                <img src=""
                                                                     class="ajax-loading" alt="loading" width="16"
                                                                     height="16" style="visibility:hidden" />
                                                             </div>
-
                                                             <div class="yith-wcwl-wishlistaddedbrowse hide"
                                                                 style="display:none;">
                                                                 <span class="feedback">Product added!</span>
-                                                                <a href="http://handy.themes.zone/wishlist/"
+                                                                <a href="/"
                                                                     rel="nofollow">
                                                                     Browse Wishlist </a>
                                                             </div>
-
                                                             <div class="yith-wcwl-wishlistexistsbrowse hide"
                                                                 style="display:none">
                                                                 <span class="feedback">The product is already in the
                                                                     wishlist!</span>
-                                                                <a href="http://handy.themes.zone/wishlist/"
+                                                                <a href=""
                                                                     rel="nofollow">
                                                                     Browse Wishlist </a>
                                                             </div>
