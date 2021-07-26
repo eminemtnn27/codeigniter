@@ -7,8 +7,6 @@
 	         
 	     </div>
 	 </div>
-
-
 	 <footer class="site-footer" style="background-color: #000000;" itemscope="itemscope"
 	     itemtype="http://schema.org/WPFooter">
 	     <!-- Site's Footer -->

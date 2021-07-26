@@ -1261,7 +1261,6 @@ Click the help icon above to learn more.
         text-decoration: none;
         border-color: rgba(255, 255, 255, 0);
     }
-
     #mega-menu-wrap-primary-nav #mega-menu-primary-nav>li.mega-menu-item>a.mega-menu-link {
         border-top: 0px solid rgba(255, 255, 255, 0);
         border-left: 0px solid rgba(255, 255, 255, 0);

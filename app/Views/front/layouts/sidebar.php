@@ -172,7 +172,6 @@
                      <span class="woocommerce-Price-amount amount">3.00<span
                              class="woocommerce-Price-currencySymbol">&#36;</span></span>
                  </div>
-
              </li>
              <li>
                  <div class="thumb-wrapper">

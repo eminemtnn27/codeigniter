@@ -345,12 +345,8 @@
                     </div>
                 </div>
             </div>
-
         </main><!-- end of Main content -->
-
         <?php echo $this->include('front/layouts/sidebar') ?>
-
-
         <div id="special-sidebar-front" class="widget-area col-xs-12 col-sm-12 col-md-12 sidebar" role="complementary">
             <div class="row">
                 <div id="woocommerce_products-8" class="widget woocommerce widget_products col-xs-12 col-sm-6 col-md-3">
@@ -380,7 +376,6 @@
                             </div>
 
                         </li>
-                        
                     </ul>
                 </div>
                 <div id="woocommerce_products-9" class="widget woocommerce widget_products col-xs-12 col-sm-6 col-md-3">
