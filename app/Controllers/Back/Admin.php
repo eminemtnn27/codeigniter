@@ -4,7 +4,7 @@ namespace App\Controllers\Back;
 use App\Controllers\BaseController;
 use App\Libraries\Hash;
 class Admin extends BaseController
-{
+{ 
 	public function _construct(){
 		$this->load->helper('url');
 	//	helper(['url','form','auth']);

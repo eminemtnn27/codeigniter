@@ -3,7 +3,7 @@
         <!-- MENU SIDEBAR-->
 <?php echo $this->include('back/layouts/aside') ?>   
         <!-- END MENU SIDEBAR-->
-        <!-- PAGE CONTAINER-->
+        <!-- PAGE CONTAINER--> 
         <div class="page-container">
             <!-- HEADER DESKTOP-->
             <header class="header-desktop">

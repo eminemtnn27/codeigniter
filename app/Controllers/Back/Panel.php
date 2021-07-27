@@ -12,4 +12,4 @@ class Panel extends BaseController
         return view('back/homepage');
     }
 }
- 
+  
